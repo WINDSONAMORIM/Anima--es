@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    div{
+        width: 100px;
+        height: 100px;
+    }
+    .div1{
+        background-color: red;
+        position: absolute;
+        animation: Animacao1 5s infinite 1s;
+    }
+    .div2{
+        background-color: blue;
+        position: relative;
+    }
+
+    @keyframes Animacao1{
+    0%{
+        left: 0px;
+        top: 0px;        
+    }
+    25%{
+        top: 0px;
+        left: 300px;        
+    }
+    50%{
+        left: 300px;
+        top: 300px;        
+    }
+    75%{
+        top: 300px;
+        left: 0px;
+    }
+    100%{
+        left: 0px;
+        top: 0px;        
+    }
+    
+
+
+}
+</style>
+<body>
+    <div class="div1"></div>
+    <!--<div class="div2"></div>-->
+</body>
+</html>
